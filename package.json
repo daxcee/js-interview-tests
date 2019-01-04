@@ -1,8 +1,8 @@
 {
-  "name": "jsdude",
+  "name": "JS Interview Answers with tests",
   "version": "1.0.0",
   "description": "",
-  "main": "checkPrime.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
     "jest-init": "jest --init"

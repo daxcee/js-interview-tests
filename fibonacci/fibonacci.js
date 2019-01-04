@@ -1,4 +1,5 @@
 /**
+ * Test: find the nth fibonacci number
  * @function fibonacci
  * @param {number} n 
  * @returns {number}
@@ -19,6 +20,7 @@ function fibonacci(n) {
 }
 
 /**
+ * Test: find the nth fibonacci number recursively
  * @function fibonacciRecursive
  * @param {number} n 
  * @returns {number}

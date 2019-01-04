@@ -1,3 +1,9 @@
+/**
+ * Test: reverse a string
+ * @function reverseString
+ * @param {string} str 
+ * @returns {string}
+ */
 function reverseString(str) {
   if (typeof str !== 'string') throw new Error('Invalid string');
 

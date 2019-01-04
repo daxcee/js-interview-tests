@@ -1,4 +1,5 @@
 /**
+ * Test: Find the prime factors of a number
  * @function primeFactors
  * @param {number} n
  * @returns {array} factors - array of prime factors

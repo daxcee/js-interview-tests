@@ -1,4 +1,5 @@
 /**
+ * Test: remove duplicates in an array
  * @function removeDuplicate
  * @param {Array} arr 
  * @returns {Array} filtered array of non-duplicates

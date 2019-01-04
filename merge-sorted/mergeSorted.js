@@ -1,4 +1,5 @@
 /**
+ * Test: merge two sorted arrays
  * @function mergeSortedArray
  * @param {Array} a - sorted array
  * @param {Array} b - sorted array

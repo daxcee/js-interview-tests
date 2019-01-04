@@ -1,6 +1,13 @@
+/**
+ * Test: identify first non-repeated character (ignore spaces)
+ * @function firstNonRepeatChar
+ * @param {string} str 
+ * @returns {string}
+ */
 function firstNonRepeatChar(str) {
   if (typeof str !== 'string') throw new Error('Invalid string');
 
+  str = str.replace(/\s/g, ''); // get rid of spaces
   const length = str.length;
   let char;
   const charMap = {};

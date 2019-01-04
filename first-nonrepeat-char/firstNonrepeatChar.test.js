@@ -20,9 +20,9 @@ describe('First non-repeat Char', () => {
     expect(result).toBe('f');
   });
 
-  test('Returns space "ttt xxx"', () => {
+  test('Returns empty "ttt xxx"', () => {
     const result = firstNonrepeatChar("ttt xxx");
-    expect(result).toBe(' ');
+    expect(result).toBe('');
   });
 
   test('Returns empty "tttxxx"', () => {

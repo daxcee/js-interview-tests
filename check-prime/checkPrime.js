@@ -1,5 +1,5 @@
 /**
- * verify a prime number
+ * Test: Verify a prime number
  * @function isPrime
  * @param {number}
  * @returns {boolean}

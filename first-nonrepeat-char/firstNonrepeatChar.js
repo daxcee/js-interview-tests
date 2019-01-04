@@ -1,0 +1,20 @@
+function firstNonRepeatChar(str) {
+  if (typeof str !== 'string') throw new Error('Invalid string');
+
+  const length = str.length;
+  let char;
+  const charMap = {};
+
+  for (let i = 0; i < length; i += 1) {
+    char = str[i];
+    charMap[char] = charMap[char] + 1 || 1;
+  }
+
+  for (let char in charMap) {
+    if (charMap[char] === 1) return char;
+  }
+
+  return '';
+};
+
+module.exports = firstNonRepeatChar;

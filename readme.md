@@ -11,6 +11,7 @@ Test package used is [jest](https://jestjs.io/)
 4) **OPTIONAL:** To initialize a jest config run ```npm run jest-init```
 
 ### Resources for JS Interview Questions and Algorithms
+- [freeCodeCamp](https://learn.freecodecamp.org/)
 - [jsdude](http://www.thatjsdude.com/interview/)
 - [Jobeir](https://github.com/Jobeir/front-end-interview-preparation-guide)
 - [adam-s](https://github.com/adam-s/js-interview-review)

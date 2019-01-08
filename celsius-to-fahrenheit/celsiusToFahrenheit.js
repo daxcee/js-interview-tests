@@ -1,3 +1,9 @@
+/**
+ * Test: Convert celsius to fahrenheit. Accept string or numbers
+ * @function celsiusToFahrenheit
+ * @param {string, number} celsius - temperature in celsius
+ * @returns {number} - returns fahrenheit
+ */
 function celsiusToFahrenheit(celsius) {
   const formula = C => (C * (9/5)) + 32;
 
